@@ -1,0 +1,30 @@
+* Readme
+
+* Install/Setup
+
+ # Install bundler if you dont already have
+ gem install bundler
+
+ # Bundle
+ bundle install
+
+
+* Run specs
+
+ rspec calc_spec.rb
+
+ # Run formatted version
+ rspec calc_spec.rb  -cf doc
+
+ Eg. output
+
+Calc
+  #accumulator_zero?
+    is zero
+    is not zero
+  increment accumulator
+    brittle test
+    non brittle test
+  setting accumulator
+    to 10
+    to 20
